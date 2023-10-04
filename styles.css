@@ -1,4 +1,3 @@
-/* Reset some default browser styles */
 ul, li {
     list-style: color;
     padding: 0;
@@ -22,7 +21,7 @@ header {
 
 nav ul {
     display: flex;
-    list-style: none;
+    list-style: square;
     margin-left: auto;
 }
 
