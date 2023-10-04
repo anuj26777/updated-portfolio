@@ -1,0 +1,125 @@
+/* Reset some default browser styles */
+ul, li {
+    list-style: color;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(200, 19%, 91%);
+    transition: color 0.3s ease;
+}
+
+/* Header Styles */
+header {
+    background-color: #0b0c0c;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+}
+
+nav ul li {
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+}
+
+.profile-info h1 {
+    font-size: 28px;
+    margin: 0;
+}
+
+.profile-info p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+/* Section Styles */
+.summary, .education, .project-section, .skills, .experience, .contact {
+    background-color: #0f0d0d;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    transition: transform 0.3s ease;
+}
+
+h2 {
+    color: #f7f2f2;
+    font-size: 24px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+.project-item, .experience-item {
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 18px;
+    color: #555;
+}
+
+p {
+    font-size: 16px;
+    color: #777;
+}
+
+.skills ul {
+    padding-left: 20px;
+}
+
+.skills li {color: white;
+    margin-bottom: 10px;
+}
+
+/* Education Section Styles */
+.education-item {
+    margin-bottom: 20px;
+}
+
+.education-item h3 {
+    font-size: 18px;
+    color: #e9e3e3;
+}
+
+.education-item p {
+    font-size: 16px;
+    color: #f0eaea;
+}
+
+/* Interactive Styling */
+a:hover {
+    color: #eaeef1;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid #080b0e;
+    padding-bottom: 8px;
+}
+
+/* Hover Effects */
+.profile-picture img:hover {
+    transform: scale(1.1);
+}
+
+.summary:hover, .education:hover, .project-section:hover, .skills:hover, .experience:hover, .contact:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
